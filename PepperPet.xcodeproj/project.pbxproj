@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79EB26EB2E26B5D10086F32C /* PepperPet Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 79EB26EA2E26B5D10086F32C /* PepperPet Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		79EB274D2E26B6310086F32C /* Pet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 79EB274B2E26B6310086F32C /* Pet.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79EB26EC2E26B5D10086F32C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79EB26DE2E26B5D10086F32C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79EB26E92E26B5D10086F32C;
+			remoteInfo = "PepperPet Watch App";
+		};
+		79EB26FD2E26B5D30086F32C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79EB26DE2E26B5D10086F32C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79EB26E92E26B5D10086F32C;
+			remoteInfo = "PepperPet Watch App";
+		};
+		79EB27072E26B5D30086F32C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79EB26DE2E26B5D10086F32C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79EB26E92E26B5D10086F32C;
+			remoteInfo = "PepperPet Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		79EB27132E26B5D30086F32C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				79EB26EB2E26B5D10086F32C /* PepperPet Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		79EB26E42E26B5D10086F32C /* PepperPet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PepperPet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79EB26EA2E26B5D10086F32C /* PepperPet Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PepperPet Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79EB26FC2E26B5D30086F32C /* PepperPet Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PepperPet Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79EB27062E26B5D30086F32C /* PepperPet Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PepperPet Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79EB274C2E26B6310086F32C /* Pet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pet.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		79EB26EE2E26B5D10086F32C /* PepperPet Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "PepperPet Watch App";
+			sourceTree = "<group>";
+		};
+		79EB26FF2E26B5D30086F32C /* PepperPet Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "PepperPet Watch AppTests";
+			sourceTree = "<group>";
+		};
+		79EB27092E26B5D30086F32C /* PepperPet Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "PepperPet Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79EB26E72E26B5D10086F32C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79EB26F92E26B5D30086F32C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79EB27032E26B5D30086F32C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79EB26DD2E26B5D10086F32C = {
+			isa = PBXGroup;
+			children = (
+				79EB274B2E26B6310086F32C /* Pet.xcdatamodeld */,
+				79EB26EE2E26B5D10086F32C /* PepperPet Watch App */,
+				79EB26FF2E26B5D30086F32C /* PepperPet Watch AppTests */,
+				79EB27092E26B5D30086F32C /* PepperPet Watch AppUITests */,
+				79EB26E52E26B5D10086F32C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79EB26E52E26B5D10086F32C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79EB26E42E26B5D10086F32C /* PepperPet.app */,
+				79EB26EA2E26B5D10086F32C /* PepperPet Watch App.app */,
+				79EB26FC2E26B5D30086F32C /* PepperPet Watch AppTests.xctest */,
+				79EB27062E26B5D30086F32C /* PepperPet Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79EB26E32E26B5D10086F32C /* PepperPet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79EB27142E26B5D30086F32C /* Build configuration list for PBXNativeTarget "PepperPet" */;
+			buildPhases = (
+				79EB26E22E26B5D10086F32C /* Resources */,
+				79EB27132E26B5D30086F32C /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79EB26ED2E26B5D10086F32C /* PBXTargetDependency */,
+			);
+			name = PepperPet;
+			packageProductDependencies = (
+			);
+			productName = PepperPet;
+			productReference = 79EB26E42E26B5D10086F32C /* PepperPet.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		79EB26E92E26B5D10086F32C /* PepperPet Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79EB27102E26B5D30086F32C /* Build configuration list for PBXNativeTarget "PepperPet Watch App" */;
+			buildPhases = (
+				79EB26E62E26B5D10086F32C /* Sources */,
+				79EB26E72E26B5D10086F32C /* Frameworks */,
+				79EB26E82E26B5D10086F32C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				79EB26EE2E26B5D10086F32C /* PepperPet Watch App */,
+			);
+			name = "PepperPet Watch App";
+			packageProductDependencies = (
+			);
+			productName = "PepperPet Watch App";
+			productReference = 79EB26EA2E26B5D10086F32C /* PepperPet Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79EB26FB2E26B5D30086F32C /* PepperPet Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79EB27172E26B5D30086F32C /* Build configuration list for PBXNativeTarget "PepperPet Watch AppTests" */;
+			buildPhases = (
+				79EB26F82E26B5D30086F32C /* Sources */,
+				79EB26F92E26B5D30086F32C /* Frameworks */,
+				79EB26FA2E26B5D30086F32C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79EB26FE2E26B5D30086F32C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				79EB26FF2E26B5D30086F32C /* PepperPet Watch AppTests */,
+			);
+			name = "PepperPet Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "PepperPet Watch AppTests";
+			productReference = 79EB26FC2E26B5D30086F32C /* PepperPet Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79EB27052E26B5D30086F32C /* PepperPet Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79EB271A2E26B5D30086F32C /* Build configuration list for PBXNativeTarget "PepperPet Watch AppUITests" */;
+			buildPhases = (
+				79EB27022E26B5D30086F32C /* Sources */,
+				79EB27032E26B5D30086F32C /* Frameworks */,
+				79EB27042E26B5D30086F32C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79EB27082E26B5D30086F32C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				79EB27092E26B5D30086F32C /* PepperPet Watch AppUITests */,
+			);
+			name = "PepperPet Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "PepperPet Watch AppUITests";
+			productReference = 79EB27062E26B5D30086F32C /* PepperPet Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79EB26DE2E26B5D10086F32C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					79EB26E32E26B5D10086F32C = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					79EB26E92E26B5D10086F32C = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					79EB26FB2E26B5D30086F32C = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 79EB26E92E26B5D10086F32C;
+					};
+					79EB27052E26B5D30086F32C = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 79EB26E92E26B5D10086F32C;
+					};
+				};
+			};
+			buildConfigurationList = 79EB26E12E26B5D10086F32C /* Build configuration list for PBXProject "PepperPet" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79EB26DD2E26B5D10086F32C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 79EB26E52E26B5D10086F32C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79EB26E32E26B5D10086F32C /* PepperPet */,
+				79EB26E92E26B5D10086F32C /* PepperPet Watch App */,
+				79EB26FB2E26B5D30086F32C /* PepperPet Watch AppTests */,
+				79EB27052E26B5D30086F32C /* PepperPet Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79EB26E22E26B5D10086F32C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79EB26E82E26B5D10086F32C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79EB26FA2E26B5D30086F32C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79EB27042E26B5D30086F32C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79EB26E62E26B5D10086F32C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79EB274D2E26B6310086F32C /* Pet.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79EB26F82E26B5D30086F32C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79EB27022E26B5D30086F32C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79EB26ED2E26B5D10086F32C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79EB26E92E26B5D10086F32C /* PepperPet Watch App */;
+			targetProxy = 79EB26EC2E26B5D10086F32C /* PBXContainerItemProxy */;
+		};
+		79EB26FE2E26B5D30086F32C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79EB26E92E26B5D10086F32C /* PepperPet Watch App */;
+			targetProxy = 79EB26FD2E26B5D30086F32C /* PBXContainerItemProxy */;
+		};
+		79EB27082E26B5D30086F32C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79EB26E92E26B5D10086F32C /* PepperPet Watch App */;
+			targetProxy = 79EB27072E26B5D30086F32C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		79EB270E2E26B5D30086F32C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79EB270F2E26B5D30086F32C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		79EB27112E26B5D30086F32C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PepperPet Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PepperPet;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = danny.PepperPet.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		79EB27122E26B5D30086F32C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PepperPet Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PepperPet;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = danny.PepperPet.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+		79EB27152E26B5D30086F32C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = PepperPet;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = danny.PepperPet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		79EB27162E26B5D30086F32C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = PepperPet;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = danny.PepperPet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79EB27182E26B5D30086F32C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "danny.PepperPet-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PepperPet Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PepperPet Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		79EB27192E26B5D30086F32C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "danny.PepperPet-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PepperPet Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PepperPet Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+		79EB271B2E26B5D30086F32C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "danny.PepperPet-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "PepperPet Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		79EB271C2E26B5D30086F32C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "danny.PepperPet-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "PepperPet Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79EB26E12E26B5D10086F32C /* Build configuration list for PBXProject "PepperPet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79EB270E2E26B5D30086F32C /* Debug */,
+				79EB270F2E26B5D30086F32C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79EB27102E26B5D30086F32C /* Build configuration list for PBXNativeTarget "PepperPet Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79EB27112E26B5D30086F32C /* Debug */,
+				79EB27122E26B5D30086F32C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79EB27142E26B5D30086F32C /* Build configuration list for PBXNativeTarget "PepperPet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79EB27152E26B5D30086F32C /* Debug */,
+				79EB27162E26B5D30086F32C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79EB27172E26B5D30086F32C /* Build configuration list for PBXNativeTarget "PepperPet Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79EB27182E26B5D30086F32C /* Debug */,
+				79EB27192E26B5D30086F32C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79EB271A2E26B5D30086F32C /* Build configuration list for PBXNativeTarget "PepperPet Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79EB271B2E26B5D30086F32C /* Debug */,
+				79EB271C2E26B5D30086F32C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		79EB274B2E26B6310086F32C /* Pet.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				79EB274C2E26B6310086F32C /* Pet.xcdatamodel */,
+			);
+			currentVersion = 79EB274C2E26B6310086F32C /* Pet.xcdatamodel */;
+			path = Pet.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 79EB26DE2E26B5D10086F32C /* Project object */;
+}
